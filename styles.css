@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(76, 117, 125);
+    border: 1px solid black;
+    box-shadow: 0 0 10pxbrown(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: rgb(72, 123, 143);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#toggle-skills {
+    background-color: rgb(75, 125, 134);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggle-skills:hover {
+    background-color: rgb(73, 136, 141);
+}
+
+.hidden {
+    display: none;
+}
